@@ -1,0 +1,24 @@
+{
+  "name": "employee-management",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "npx es-dev-server --node-resolve --watch",
+    "test": "web-test-runner \"src/**/*.test.js\" --node-resolve",
+    "test:coverage": "web-test-runner \"src/**/*.test.js\" --node-resolve --coverage"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@vaadin/router": "^2.0.0"
+  },
+  "devDependencies": {
+    "@open-wc/testing": "^4.0.0",
+    "@web/test-runner": "^0.19.0",
+    "@web/test-runner-commands": "^0.9.0",
+    "lit": "^3.2.1"
+  },
+  "description": ""
+}

@@ -1,0 +1,200 @@
+export const initialEmployees = [
+  {
+    id: '1',
+    firstName: 'Ahmet',
+    lastName: 'Yılmaz',
+    dateOfEmployment: '2023-01-15',
+    dateOfBirth: '1990-05-20',
+    phone: '05321234567',
+    email: 'ahmet.yilmaz@company.com',
+    department: 'Analytics',
+    position: 'Senior'
+  },
+  {
+    id: '2',
+    firstName: 'Ayşe',
+    lastName: 'Kaya',
+    dateOfEmployment: '2023-03-01',
+    dateOfBirth: '1992-08-12',
+    phone: '05321234567',
+    email: 'ayse.kaya@company.com',
+    department: 'Tech',
+    position: 'Medior'
+  },
+  {
+    id: '3',
+    firstName: 'Mehmet',
+    lastName: 'Demir',
+    dateOfEmployment: '2023-02-10',
+    dateOfBirth: '1988-11-25',
+    phone: '05321234567',
+    email: 'mehmet.demir@company.com',
+    department: 'Analytics',
+    position: 'Junior'
+  },
+  {
+    id: '4',
+    firstName: 'Zeynep',
+    lastName: 'Şahin',
+    dateOfEmployment: '2023-04-20',
+    dateOfBirth: '1995-03-15',
+    phone: '05321234567',
+    email: 'zeynep.sahin@company.com',
+    department: 'Tech',
+    position: 'Senior'
+  },
+  {
+    id: '5',
+    firstName: 'Can',
+    lastName: 'Öztürk',
+    dateOfEmployment: '2023-05-01',
+    dateOfBirth: '1993-07-30',
+    phone: '05321234567',
+    email: 'can.ozturk@company.com',
+    department: 'Analytics',
+    position: 'Medior'
+  },
+  {
+    id: '6',
+    firstName: 'Elif',
+    lastName: 'Arslan',
+    dateOfEmployment: '2023-01-05',
+    dateOfBirth: '1991-12-10',
+    phone: '05321234567',
+    email: 'elif.arslan@company.com',
+    department: 'Tech',
+    position: 'Junior'
+  },
+  {
+    id: '7',
+    firstName: 'Burak',
+    lastName: 'Çelik',
+    dateOfEmployment: '2023-03-15',
+    dateOfBirth: '1989-09-22',
+    phone: '05321234567',
+    email: 'burak.celik@company.com',
+    department: 'Analytics',
+    position: 'Senior'
+  },
+  {
+    id: '8',
+    firstName: 'Deniz',
+    lastName: 'Yıldız',
+    dateOfEmployment: '2023-04-01',
+    dateOfBirth: '1994-02-18',
+    phone: '05321234567',
+    email: 'deniz.yildiz@company.com',
+    department: 'Tech',
+    position: 'Medior'
+  },
+  {
+    id: '9',
+    firstName: 'Selin',
+    lastName: 'Aydın',
+    dateOfEmployment: '2023-02-20',
+    dateOfBirth: '1992-06-05',
+    phone: '05321234567',
+    email: 'selin.aydin@company.com',
+    department: 'Analytics',
+    position: 'Junior'
+  },
+  {
+    id: '10',
+    firstName: 'Ahmet',
+    lastName: 'Yılmaz',
+    dateOfEmployment: '2023-01-15',
+    dateOfBirth: '1990-05-20',
+    phone: '05321234567',
+    email: 'ahmet.yilma2@company.com',
+    department: 'Analytics',
+    position: 'Senior'
+  },
+  {
+    id: '11',
+    firstName: 'Kaya',
+    lastName: 'Ayşe',
+    dateOfEmployment: '2023-03-01',
+    dateOfBirth: '1992-08-12',
+    phone: '05321234567',
+    email: 'ayse.kaya2@company.com',
+    department: 'Tech',
+    position: 'Medior'
+  },
+  {
+    id: '12',
+    firstName: 'Ahmet',
+    lastName: 'Demir',
+    dateOfEmployment: '2023-02-10',
+    dateOfBirth: '1988-11-25',
+    phone: '05321234567',
+    email: 'mehmet.demir2@company.com',
+    department: 'Analytics',
+    position: 'Junior'
+  },
+  {
+    id: '13',
+    firstName: 'Selen',
+    lastName: 'Katı',
+    dateOfEmployment: '2023-04-20',
+    dateOfBirth: '1995-03-15',
+    phone: '05321234567',
+    email: 'zeynep.sahin2@company.com',
+    department: 'Tech',
+    position: 'Senior'
+  },
+  {
+    id: '14',
+    firstName: 'Mert',
+    lastName: 'Özcan',
+    dateOfEmployment: '2023-05-01',
+    dateOfBirth: '1993-07-30',
+    phone: '05321234567',
+    email: 'can.ozturk2@company.com',
+    department: 'Analytics',
+    position: 'Medior'
+  },
+  {
+    id: '15',
+    firstName: 'Zinnur',
+    lastName: 'Kaplan',
+    dateOfEmployment: '2023-01-05',
+    dateOfBirth: '1991-12-10',
+    phone: '05321234567',
+    email: 'elif.arslan2@company.com',
+    department: 'Tech',
+    position: 'Junior'
+  },
+  {
+    id: '16',
+    firstName: 'Kazım',
+    lastName: 'Kalıp',
+    dateOfEmployment: '2023-03-15',
+    dateOfBirth: '1989-09-22',
+    phone: '05321234567',
+    email: 'burak.celik2@company.com',
+    department: 'Analytics',
+    position: 'Senior'
+  },
+  {
+    id: '17',
+    firstName: 'Mahmut',
+    lastName: 'Orhan',
+    dateOfEmployment: '2023-04-01',
+    dateOfBirth: '1994-02-18',
+    phone: '05321234567',
+    email: 'deniz.yildiz2@company.com',
+    department: 'Tech',
+    position: 'Medior'
+  },
+  {
+    id: '18',
+    firstName: 'Yakup',
+    lastName: 'Deniz',
+    dateOfEmployment: '2023-02-20',
+    dateOfBirth: '1992-06-05',
+    phone: '05321234567',
+    email: 'selin.aydin2@company.com',
+    department: 'Analytics',
+    position: 'Junior'
+  }
+];
